@@ -9,6 +9,7 @@
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 .width {
     width: 800px;
 }
@@ -19,6 +20,7 @@ button{
     font-size: 11px;
     border: 0;
     margin: 0 15px;
+    padding: 15px;
 }
 
 a{
@@ -44,8 +46,17 @@ h2{
 h3{
     padding-bottom: 20px;
 }
+
+h4{
+    color: lightskyblue;
+}
+
+ul{
+    list-style-type: none;
+}
+
 .bg-button{
-    background-color: lightblue;
+    background-color: lightskyblue;
     color: white;
 }
 
@@ -60,14 +71,11 @@ header{
     padding: 10px;
 }
 
-.spotbottom{
-    padding: 15px;
-}
-
 .bg-black{
     background-color: black;
     color: white;
 }
+
 p{
     padding-bottom: 25px;
     line-height: 22px;
@@ -180,34 +188,45 @@ p{
 
 footer{
     background-color: black;
+    color: white;
 }
 
+.h-footer{
+    color: lightskyblue;
+}
+
+.flag{
+    height: 15px;
+}
+
+.social{
+    padding-top: 15px;
+}
 .finale{
-    min-height: 400px;
+    min-height: 450px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     border-bottom: 1px solid white;
+    line-height: 30px;
 }
 
 .contatti{
     height: 300px;
-    width: 300px;
-    background-color: pink;
-    border: 1px dashed black;
+    width: 200px;
 }
 
 .info{
     height: 300px;
-    width: 500px;
-    background-color: aqua;
+    width: 600px;
     display: flex;
+    font-size: 14px;
+    
 }
 
 .colonna{
     height: 300px;
     width: 25%;
-    border: 1px dashed white;
 }
 
 .bottom-bar{
@@ -219,7 +238,6 @@ footer{
 
 .barra{
     height: 30px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 
@@ -227,8 +245,7 @@ footer{
 }
 
 .bottom-logo{
-    border: 1px dashed rgb(43, 41, 41);
     height: 15px;
-    background-color: pink;
+    line-height: 1px;
 }
 
