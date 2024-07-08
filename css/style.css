@@ -1,0 +1,170 @@
+/* CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width {
+    width: 800px;
+}
+/* Header */
+
+header{
+    background-color: lightblue;
+}
+
+.nav-bar{
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.spotlight{
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-logo{
+    height: 30px;
+    width: 25%;
+    background-color: orange;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.nav-link{
+    height: 30px;
+    width: 50%;
+    background-color: orange;
+    border: 1px dashed black;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-login{
+    height: 30px;
+    width: 25%;
+    background-color: orange;
+    border: 1px dashed black;
+    text-align: right;
+    padding: 5px;
+}
+
+.spotmain{
+    min-height: 300px;
+    width: 700px;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+/* Main */
+
+.main-section{
+ 
+    min-height: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section{
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    border: 1px dashed black;
+}
+
+.text-section{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.central-section{
+ 
+    min-height: 400px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-section{
+    height: 700px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-contenuto{
+    min-height: 600px;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+/* Footer */ 
+
+footer{
+    background-color: black;
+}
+
+.finale{
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center
+}
+
+.contatti{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.info{
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+}
+
+.colonna{
+    height: 300px;
+    width: 25%;
+    border: 1px dashed white;
+}
+
+.bottom-bar{
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.barra{
+    height: 30px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.bottom-logo{
+    border: 1px dashed rgb(43, 41, 41);
+    height: 15px;
+    background-color: pink;
+}
+
