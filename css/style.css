@@ -36,6 +36,18 @@ h1{
     font-size: 45px;
 }
 
+h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+.bg-button{
+    background-color: lightblue;
+    color: white;
+}
 
 /* Header */
 
@@ -58,6 +70,8 @@ header{
 }
 p{
     padding-bottom: 25px;
+    line-height: 22px;
+    font-weight: 600;
 }
 
 .spot{
@@ -118,38 +132,37 @@ p{
 .main-section{
  
     min-height: 400px;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.img-main{
+    max-width: 500px;
+}
 .img-section{
     height: 300px;
     width: 500px;
-    background-color: aqua;
-    border: 1px dashed black;
+    display: flex;
 }
 
 .text-section{
     height: 300px;
     width: 300px;
-    background-color: pink;
-    border: 1px dashed black;
 }
 
 .central-section{
  
     min-height: 400px;
-    background-color: lightslategray;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .big-section{
-    height: 700px;
-    background-color: lightslategray;
+    height: 800px;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,10 +170,12 @@ p{
 
 .big-contenuto{
     min-height: 600px;
-    background-color: purple;
-    border: 1px dashed black;
+    text-align: center;
 }
 
+.big-img{
+    width: 800px;
+}
 /* Footer */ 
 
 footer{
@@ -171,7 +186,8 @@ footer{
     min-height: 400px;
     margin: 0 auto;
     display: flex;
-    align-items: center
+    align-items: center;
+    border-bottom: 1px solid white;
 }
 
 .contatti{
